@@ -1,0 +1,81 @@
+/* ====== LIGHT MODE OVERRIDES ====== */
+body.light-mode {
+  background-color: white;
+  color: #0e1f3d;
+}
+
+body.light-mode header {
+  background-color: #001F54; /* navbar dark blue */
+}
+
+body.light-mode header .logo,
+body.light-mode header nav a,
+body.light-mode #toggle-mode {
+  color: white;
+}
+
+body.light-mode .cta-buttons a {
+  background-color: #001F54; /* navy blue buttons */
+  color: white;
+}
+
+body.light-mode .btn {
+  background-color: #001F54;
+  color: white;
+}
+
+body.light-mode .btn.secondary {
+  background: transparent;
+  border: 2px solid #001F54;
+  color: #001F54;
+}
+
+body.light-mode .hero {
+  background: linear-gradient(180deg, #ffffff, #f5f5f5);
+}
+
+body.light-mode .hero h1,
+body.light-mode .hero p,
+body.light-mode .hero h3 {
+  color: #0e1f3d; /* dark blue text */
+}
+
+body.light-mode .hero h1 span {
+  color: #001F54; /* navy blue highlight */
+}
+
+body.light-mode .stats {
+  
+  
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 3rem 1rem;
+  background: rgba(12, 32, 68, 0.65); /* semi-transparent dark blue */
+  backdrop-filter: blur(10px); /* blur for glass effect */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(12, 32, 68, 0.65); /* soft shadow */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* subtle inner border */
+  color: white;
+}
+
+
+
+  
+
+
+body.light-mode .stat-item h2 {
+  color: white;
+}
+
+body.light-mode .footer-cta {
+  background: #f0f0f0;
+  color: #0e1f3d;
+}
+
+body.light-mode #typing {
+  border-right: 2px solid #0e1f3d;
+  color: #0e1f3d;
+}
